@@ -1,7 +1,6 @@
 body {
   font-family: "Roboto", sans-serif;
   color: #212121;
-  background-color: #e5e5e5;
 }
 a {
   text-decoration: none;
@@ -143,6 +142,7 @@ a {
 }
 .contact-foot {
   list-style-type: none;
+  font-style: normal;
 }
 .contact-foot-list {
   color: #ffffff;
@@ -155,9 +155,6 @@ a {
 }
 .nav-list {
   list-style-type: none;
-}
-.subpages {
-  background-color: #eeeeee;
 }
 .nav-button {
   font-weight: 500;
