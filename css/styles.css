@@ -9,11 +9,10 @@ a {
   --brand-color: #2196f3;
   --main-text-color: #212121;
   --second-text-color: #757575;
-  --contrast-text-color: #ffffff;
+  --contrast-color: #ffffff;
   --top-logo-color: #000000;
   --team-background-color: #f5f4fa;
-  --main-background-color: #ffffff;
-  --second-background-color: #2f303a;
+  --dark-background-color: #2f303a;
 }
 .top {
   background-color: var(--main-background-color);
@@ -33,7 +32,7 @@ a {
   color: var(--top-logo-color);
 }
 .logo-foot {
-  color: var(--contrast-text-color);
+  color: var(--contrast-color);
 }
 .menu {
   font-weight: 500;
@@ -71,11 +70,11 @@ a {
   color: var(--brand-color);
 }
 .heading {
-  background-color: var(--second-background-color);
+  background-color: var(--dark-background-color);
 }
 .heading-title,
 .heading-button {
-  color: var(--contrast-text-color);
+  color: var(--contrast-color);
 }
 .heading-title {
   font-size: 44px;
@@ -88,6 +87,7 @@ a {
   cursor: pointer;
 }
 .heading-button {
+  font-family: inherit;
   background-color: var(--brand-color);
   font-weight: 700;
   font-size: 16px;
@@ -128,7 +128,7 @@ a {
   list-style-type: none;
 }
 .team-list-items {
-  background-color: var(--main-background-color);
+  background-color: var(--contrast-color);
 }
 .team-list-name {
   font-weight: 500;
@@ -145,13 +145,13 @@ a {
   letter-spacing: 0.03em;
 }
 .foot {
-  background-color: var(--second-background-color);
+  background-color: var(--dark-background-color);
 }
 .contact-foot {
   list-style-type: none;
 }
 .contact-foot-list {
-  color: var(--contrast-text-color);
+  color: var(--contrast-color);
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -163,6 +163,8 @@ a {
   list-style-type: none;
 }
 .filtr-button {
+  font-family: inherit;
+  color: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
@@ -171,7 +173,7 @@ a {
 }
 .filtr-button:hover,
 .filtr-button:active {
-  color: var(--contrast-text-color);
+  color: var(--contrast-color);
   background-color: var(--brand-color);
 }
 .projects-list {
